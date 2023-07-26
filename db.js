@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const mongoURI = 'mongodb://127.0.0.1:27017';
+const mongoURI = 'mongodb+srv://<username>:<password>@cluster0.q6h4g9g.mongodb.net/';
 const dbName = 'IT0502';
 
 let db;
